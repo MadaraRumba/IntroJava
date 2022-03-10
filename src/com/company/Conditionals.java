@@ -48,12 +48,11 @@ public class Conditionals {
         }
         // For loop
         // use the for loop specifically when you have an idea of how many times loop is supposed to run.
-        for (int i = 8; i < 15; i++){
-            //System.out.println(i);
-            if (i > 9) {
-                System.out.println(i + " is greater than 9");
+//        for (int i = 8; i < 15; i++){
+//            //System.out.println(i);
+//            if (i > 9) {
+//                System.out.println(i + " is greater than 9");
             }
         }
 
-    }
-}
+

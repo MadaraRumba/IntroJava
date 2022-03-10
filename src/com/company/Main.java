@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int age =25;
-        double weight = 60.26;
-        double height = 170.55;
-        String gender = "Female";
+//        int age =25;
+//        double weight = 60.26;
+//        double height = 170.55;
+//        String gender = "Female";
 
 
 //        System.out.println(5==5);

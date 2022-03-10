@@ -49,17 +49,20 @@ public class loop {
         // if divisible by both 3 and 7 then replace with fizzbuzz
         // else print the number.
 
-        for (int i = 1; i <= 50; i++)
-            if (i % 3 == 0 && i % 7 == 0) {
-                System.out.println("fizzbuzz");
-            } else if (i % 3 == 0) {
-                System.out.println("fizz");
-            } else if (i % 7 == 0) {
-                System.out.println("buzz");
-            } else {
-                System.out.println(i);
-            }
+//        for (int i = 1; i <= 50; i++)
+//            if (i % 3 == 0 && i % 7 == 0) {
+//                System.out.println("fizzbuzz");
+//            } else if (i % 3 == 0) {
+//                System.out.println("fizz");
+//            } else if (i % 7 == 0) {
+//                System.out.println("buzz");
+//            } else {
+//                System.out.println(i);
+//            }
+
+
     }
 }
+
 
 
