@@ -8,6 +8,7 @@ public class Task3 {
 //        Write a program that accepts any of the primary colors as a String and returns the complimentary
 //        color of that color to the user
 
+<<<<<<< HEAD
 //        Primary colors: yellow, blue; red
 //        Complimentary colors: purple, orange, green
 
@@ -30,5 +31,7 @@ public class Task3 {
             }
 
         }
+=======
+>>>>>>> origin/master
     }
 }
