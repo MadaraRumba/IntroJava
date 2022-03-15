@@ -49,25 +49,23 @@ public class HomeTaskArrays {
 // of each vowel in the String. The array returned by your method should hold 5 elements:
 // the first is the count of As, the second is the count of Es, the third Is, the fourth Os, and the fifth Us.
 
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.print("Please write something here: ");
-//        String inputString = scanner.nextLine();
-//        String responseString = "";
-//        String errorString = "";
-//
-//        int counter = 0;
-//        for (int i = 0; i < inputString.length(); i++) {
-//            char currentLetter = inputString.toLowerCase().charAt(i);
-//            switch (currentLetter) { // checks for equality
-//                case 'a':
-//                case 'e':
-//                case 'i':
-//                case 'o':
-//                case 'u':
-//                    counter++;
-//                    break;
-//            }
-//        }
-//        System.out.println("There are " + counter + " vowels in the text");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please write something here: ");
+        String inputString = scanner.nextLine();
+
+        int counter = 0;
+        for (int i = 0; i < inputString.length(); i++) {
+            char currentLetter = inputString.toLowerCase().charAt(i);
+            switch (currentLetter) { // checks for equality
+                case 'a':
+                case 'e':
+                case 'i':
+                case 'o':
+                case 'u':
+                    counter++;
+                    break;
+            }
+        }
+        System.out.println("There are " + counter + " vowels in the text");
     }
 }
