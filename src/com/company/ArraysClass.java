@@ -9,6 +9,7 @@ public class ArraysClass {
         // An array is a collection of multiple data unit of a single data type.
 
 //         Scanner scanner = new Scanner(System.in);
+
 //        // First way to declare an array (you have predetermined values)
 ////        int[] number = {4, 5, 0, 4}; // indexing starts from 0 (similar as in strings)
 ////        System.out.println(number.length); // do not use parenthesis
@@ -53,7 +54,6 @@ public class ArraysClass {
         for(int i=0; i<numbers.length; i++){
            sum += numbers[i];
         }
-
         System.out.format("The average is: " + Arrays.toString(numbers) + " is " + (sum/numbers.length));
 
     }

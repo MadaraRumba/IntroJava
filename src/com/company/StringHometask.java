@@ -39,12 +39,12 @@ public class StringHometask {
         // Task #4
         //Write a program to reverse a string and capitalize all the letters. e.g. hello becomes OLLEH.
 
-        String word = "cocomelon";
-        String reversedString = ""; //empty string
-        for (int i = word.length() - 1; i > -1; i--) { //loop from the last character to the first
-            reversedString += word.charAt(i); //append the characters in reverse to the empty string
-        }
-        System.out.println(reversedString);
+//        String word = "cocomelon";
+//        String reversedString = ""; //empty string
+//        for (int i = word.length() - 1; i > -1; i--) { //loop from the last character to the first
+//            reversedString += word.charAt(i); //append the characters in reverse to the empty string
+//        }
+//        System.out.println(reversedString);
 
     }
 }

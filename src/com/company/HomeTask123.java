@@ -38,6 +38,12 @@ public class HomeTask123 {
 //                System.out.println(responseString);
 //            }
 
+
+
+
+
+
+
         //        Task #2
 //        Write a program that accepts a String from a user and prints an interactive response telling the user
 //        if the word is the same when spelt backwards. For example, bread when spelt backwards is daerb,
@@ -64,6 +70,17 @@ public class HomeTask123 {
 //        } else {
 //            System.out.println("The string " + something + " is not the same as " + reversedSomething + " therefore, not a palindrome.");
 //        }
+
+
+
+
+
+
+
+
+
+
+
 
         //        Task #3
 //        Write a program that accepts any of the primary colors as a String and returns the complimentary
