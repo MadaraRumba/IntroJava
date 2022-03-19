@@ -10,7 +10,7 @@ public class MathUtil {
 //        System.out.println(Math.pow(2, 3));
 //        System.out.println(Math.max(5, 9));
 
-        Scanner scanner = new Scanner (System.in);
+        Scanner scanner = new Scanner(System.in);
 
 //        Task #1
 //        Write a program that allows the user to enter the base and height of a triangle and return the area of
@@ -40,10 +40,10 @@ public class MathUtil {
         System.out.println("Please enter the value of C");
         double c = scanner.nextDouble();
 
-        double x1  = (-b + Math.sqrt (Math.pow(b, 2) - (4 * a * c))) / (2 * a);
+        double x1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
         System.out.println("X1: " + x1);
 
-        double x2  = (-b - Math.sqrt (Math.pow(b, 2) - (4 * a * c))) / (2 * a);
+        double x2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
         System.out.println("X2: " + x2);
 
     }

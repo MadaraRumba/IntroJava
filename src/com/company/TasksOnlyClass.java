@@ -79,7 +79,6 @@ public class TasksOnlyClass {
 //                sortedNumbers[countEven - 1 + counterOdd] = userNumbers[i];
 //            }
 //        }
-//
 //        System.out.println("Sorted array is: " + Arrays.toString(sortedNumbers));
 
 
