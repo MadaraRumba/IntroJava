@@ -100,29 +100,30 @@ public class TasksArrays {
         // You can buy .... and ... you'll be left with ... dollars.
 
 
-        String[] items = new String[]{"Bread", "Fish", "Bananas"};
-        int [] prices = {5, 10, 12};
+//        String[] items = new String[]{"Bread", "Fish", "Bananas"};
 
-        for (int i = 0; i < prices.length; i++) {
-            if (prices[i] + prices[i + 1] < 20) {
-                System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
-                        + (20 - prices[i] - prices[i + 1]));
-            } else {
-                System.out.println("Exceeds 20 $ limit");
+//        int [] prices = {5, 10, 12};
+//        int cash = 20;
+//
+//        String itemsPurch = ""; // empty string that is going to contain items
+//        for (int i = 0; i < items.length; i++) {
+//            if (cash - prices [i] >= 0){
+//                itemsPurch += items[i] + " ";
+//                cash -= prices[i];
+//            }
+//        }
 
-            } if (prices[i] + prices[i + 2] < 20) {
-                    System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
-                            + (20 - prices[i] - prices[i + 2]));
-            } else {
-                System.out.println("Exceeds 20 $ limit");
+//        System.out.println(" You can buy: " + itemsPurch + " the change is " + cash);
 
-            } if (prices[i + 1] + prices[i + 2] < 20) {
-                        System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
-                                + (20 - prices[i + 1] - prices[i + 2]));
-            } else {
-                 System.out.println("Exceeds 20 $ limit");
-                }
-            }
+//                String[] items = {"Bananas", "Bread", "Fish"};
+//                int [] prices = {12, 5, 10};
+//
+//                int breadPrice = 0;
+//                int totalCost = prices[1] + prices [2]
+//
+//        System.out.println("You can buy .... and ... you'll be left with" + (20 - totalCost));
+
+
 
 
 
