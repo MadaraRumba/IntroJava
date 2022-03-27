@@ -10,6 +10,7 @@ public class HomeTaskArrays {
 // of the ones the user entered.
 
 
+//        1. Scanner
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("How many numbers would you like to enter? ");
 //        int [] numbers = new int [scanner.nextInt()]; // use the input to create an array to hold the values

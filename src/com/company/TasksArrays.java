@@ -46,9 +46,9 @@ public class TasksArrays {
         // in the string
 
         // 1. Input
-        Scanner scanner = new Scanner(System. in);
-        System.out.println("Enter a string: ");
-        String k = scanner.nextLine();
+//        Scanner scanner = new Scanner(System. in);
+//        System.out.println("Enter a string: ");
+//        String k = scanner.nextLine();
 
         // 2. Which char occurs the most?
 //        char tempArray[] = k.toCharArray(); // initialize an array
@@ -97,10 +97,39 @@ public class TasksArrays {
         // Priorities of the items: bananas [least], fish [second] and bread [first].
 
         // N.B. you can't buy half of item
-        // You can but .... and ... you'll be left with ... dollars.
+        // You can buy .... and ... you'll be left with ... dollars.
 
-//        String[] items = {"Bread," "Fish," "Bananas"};
-//        int [] prices = {5, 10, 12};
+
+        String[] items = new String[]{"Bread", "Fish", "Bananas"};
+        int [] prices = {5, 10, 12};
+
+        int sum = prices[0];
+
+        for (int i = 0; i < prices.length; i++) {
+            if (prices[i] + prices[i + 1] < 20) {
+                System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
+                        + (20 - prices[i] - prices[i + 1]));
+                if (prices[i] + prices[i + 2] < 20) {
+                    System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
+                            + (20 - prices[i] - prices[i + 2]));
+                    if (prices[i + 1] + prices[i + 2] < 20) {
+                        System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
+                                + (20 - prices[i + 1] - prices[i + 2]));
+                    } else {
+                        System.out.println("Exceeds 20 $ limit");
+
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
 
 
 

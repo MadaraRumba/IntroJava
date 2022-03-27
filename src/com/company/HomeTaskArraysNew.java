@@ -96,7 +96,7 @@ public class HomeTaskArraysNew {
 
             // check the number preceding every second element
             if (number [i-1] > number [i]) {
-                int temp = number[i - 1]; //set it to the preceding numnber
+                int temp = number[i - 1]; //set it to the preceding number
                 number[i - 1] = number[i]; //set the preceding value to the current value
                 number[i - 1] = temp; // revive the temp value
             }
