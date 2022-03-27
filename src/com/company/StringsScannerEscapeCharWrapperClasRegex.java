@@ -1,13 +1,7 @@
 package com.company;
 
-import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
 
-import java.util.Scanner;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-
-
-public class EscapeCharacters {
+public class StringsScannerEscapeCharWrapperClasRegex {
     public static void main(String[] args) {
 
         // Escape characters:
@@ -22,7 +16,9 @@ public class EscapeCharacters {
 //        System.out.println("The little \"brown\" dog");
 //        System.out.println("This is one line\rThis is the second line");
 
-        // Wrapper Classes (Converting primitive strings to primitive values)
+
+
+        // WRAPPER CLASSES (Converting primitive strings to primitive values)
 //        String five = "5";
 //        int number = Integer.parseInt(five);
 //        System.out.println((number + number) * number);
@@ -45,24 +41,23 @@ public class EscapeCharacters {
 //        char -> Character
 //        boolean -> Boolean
 
-        // Regex
-        // Quantifiers are a construct under regex that allows us to
-        // take note of number of occurences of a particular sequence
-        // a string.
+
+        // REGEX
+        // Quantifiers are a construct under regex that allows us to take note of number of occurences of
+        // a particular sequence a string.
 
 //        aaabbbe
 
-//        + - trying to check if a character or sequence has at least one occurance in the string.
+//        + - trying to check if a character or sequence has at least one occurrence in the string.
 //        e.g. a + bc -> checks if there is at least one a in the string being tested.
 //        * - checks if  a character appears zero or more times.
-//        ? - checks if a character appears zero or one occurance.
+//        ? - checks if a character appears zero or one occurrence.
 
 //        Pattern pattern = Pattern.compile("[a-zA-Z0-9]?"); // pattern checker (plus sign so it accepts letters and numbers
 //        Matcher matcher = pattern.matcher("a"); // string to check
 //        Matcher matcher2 = pattern.matcher("boogieboy109"); // string to check
 //        System.out.println(matcher.matches()); // This return true if the match and false if not.
 //        System.out.println(matcher2.matches()); // This return true if the match and false if not.
-
 
     }
 }

@@ -1,9 +1,7 @@
 package com.company;
 
 
-import java.util.Scanner;
-
-public class HomeTask123 {
+public class ScannerHometask {
     public static void main(String[] args) {
 //         Task #1
 //        Write a program that returns true interactively, if a user enters a string containing any of these
@@ -39,12 +37,7 @@ public class HomeTask123 {
 //            }
 
 
-
-
-
-
-
-        //        Task #2
+        // TASK #2
 //        Write a program that accepts a String from a user and prints an interactive response telling the user
 //        if the word is the same when spelt backwards. For example, bread when spelt backwards is daerb,
 //        which isn't quite the same.
@@ -70,13 +63,6 @@ public class HomeTask123 {
 //        } else {
 //            System.out.println("The string " + something + " is not the same as " + reversedSomething + " therefore, not a palindrome.");
 //        }
-
-
-
-
-
-
-
 
 
 
