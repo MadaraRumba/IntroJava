@@ -1,15 +1,15 @@
 package com.company;
-import java.util.Scanner;
 
 import static jdk.nashorn.internal.objects.NativeString.charAt;
 
-public class TasksOneAndTwo {
+public class ScannerVowelsSimpleCalculatorSwitch {
     public static void main(String[] args) {
         // Task #1:
 //        Write a program that accepts a string from the user and returns
 //        the number of vowels that can be found in that
         // For example: If the user enters the string , "Bodacious" -> 5 vowels
 //        Caveat: Make your program interactive.
+
 
 //        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Enter something here: ");
@@ -54,12 +54,13 @@ public class TasksOneAndTwo {
 //        System.out.println("The number of vowels in the string is: " + counter);
 
 
-//        Task #2:
+//        TASK #2:
+
         // Write a program that accepts 5 numbers from a user AS STRINGS.
 //        Do not use nextInt() method.
+
 //        Add the first two numbers and subtract the second two numbers and divide the result by the last number and
-//         multiply the result of those calculations above, then
-//        print interactively.
+//         multiply the result of those calculations above, then print interactively.
 //         5,4,3,2,1 -> 5+4 ; 3-2 ;
 
 //        Scanner scanner = new Scanner(System.in);

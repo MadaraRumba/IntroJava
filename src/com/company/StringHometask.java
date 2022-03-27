@@ -3,7 +3,7 @@ package com.company;
 public class StringHometask {
     public static void main(String[] args) {
 
-        // Task 1
+        // TASK #1
         //Write a program to compare two strings by their length and return output that tells the user if
         // the strings are equal or not.
 
@@ -16,11 +16,13 @@ public class StringHometask {
 //                    System.out.println("They are not equal!");
 //                }
 
-        // Task #2
-        //Write a program to add as many 'r's to 'burp' by using a v ariable to regulate.
+
+
+        // TASK #2
+        //Write a program to add as many 'r's to 'burp' by using a variable to regulate.
         // For example, if that variable is set to 4, then it will return an output like 'burrrrp'.
 
-//        String rString = "";; // This is going to contain the r's
+//        String rString = ""; // This is going to contain the r's
 //        int rNumber = 4;
 //
 //        for (int i = 0; i < rNumber; i++) {
@@ -29,7 +31,8 @@ public class StringHometask {
 //        System.out.println("bu" + rString + "p");
 
 
-        // Task #3
+
+        // TASK #3
         //Write a program to remove the first and last letters of a string. e.g. hello becomes ell.
 
         //Substring method

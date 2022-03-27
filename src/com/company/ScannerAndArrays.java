@@ -1,12 +1,13 @@
 package com.company;
 
 //import java.sql.SQLOutput;
-import javax.xml.bind.SchemaOutputResolver;
 import java.util.Scanner;
 
-public class StringExtendedAndArrays {
+public class ScannerAndArrays {
     public static void main(String[] args) {
-        // Scanner
+
+
+        // SCANNER
         // Initialize the scanner class
         Scanner scanner = new Scanner(System.in);
 //
@@ -65,9 +66,6 @@ public class StringExtendedAndArrays {
 //            reversedString += word.charAt(i); //append the characters in reverse to the empty string
 //        }
 //        System.out.println(reversedString.toUpperCase());
-
-
-
 
     }
 }

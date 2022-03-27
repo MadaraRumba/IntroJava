@@ -21,6 +21,13 @@ public class Main {
         System.out.println(6 < 9 && 9 > 2);
         System.out.println(5 > 9 || 8 < 3);
         System.out.println(8 == 2 && 7 < 6);
+
+        // a boolean is simply a statement or expression that results in true or false
+
+        boolean loob = 8>5;
+        System.out.println(loob);
+
+
     }
 
 }
