@@ -103,33 +103,26 @@ public class TasksArrays {
         String[] items = new String[]{"Bread", "Fish", "Bananas"};
         int [] prices = {5, 10, 12};
 
-        int sum = prices[0];
-
         for (int i = 0; i < prices.length; i++) {
             if (prices[i] + prices[i + 1] < 20) {
                 System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
                         + (20 - prices[i] - prices[i + 1]));
-                if (prices[i] + prices[i + 2] < 20) {
+            } else {
+                System.out.println("Exceeds 20 $ limit");
+
+            } if (prices[i] + prices[i + 2] < 20) {
                     System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
                             + (20 - prices[i] - prices[i + 2]));
-                    if (prices[i + 1] + prices[i + 2] < 20) {
+            } else {
+                System.out.println("Exceeds 20 $ limit");
+
+            } if (prices[i + 1] + prices[i + 2] < 20) {
                         System.out.println("You can buy " + items[i] + " and " + items[i + 1] + " and the change is "
                                 + (20 - prices[i + 1] - prices[i + 2]));
-                    } else {
-                        System.out.println("Exceeds 20 $ limit");
-
-                    }
+            } else {
+                 System.out.println("Exceeds 20 $ limit");
                 }
             }
-        }
-
-
-
-
-
-
-
-
 
 
 
