@@ -12,9 +12,9 @@ public class HomeTaskArraysNew {
 // "I found Nemo at [the order of the word you find Nemo]!". If you can't find Nemo, return "I can't find Nemo :(".
 
 //        System.out.println("Please enter a string");
-//        String userInput = scanner.nextLine();
-//
-//        String [] wordArray = userInput.split( " ");
+////        String userInput = scanner.nextLine();
+////
+////        String [] wordArray = userInput.split( " ");
 //
 //        for (int i = 0; i < wordArray.length; i++) {
 //            if (wordArray[i].equalsIgnoreCase ( "Nemo")){

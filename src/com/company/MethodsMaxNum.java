@@ -17,7 +17,7 @@ public class MethodsMaxNum {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("How many numbers: ");
-        int[] userNumbers = new int [scanner.nextInt()]; // array!!!
+        int[] userNumbers = new int [scanner.nextInt()]; // array!!! how many variables are in an array??
 
 // 3. Populate it
         for (int i = 0; i < userNumbers.length; i++) {
