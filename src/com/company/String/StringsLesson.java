@@ -1,4 +1,4 @@
-package com.company;
+package com.company.String;
 
 public class StringsLesson {
     public static void main(String[] args) {

@@ -18,9 +18,9 @@ public class RecursionHometaskReverseString {
 
 public static String reverseString(String word){
 
-        if (word.isEmpty())
+        if (word.isEmpty()) // the base case
             return word;
 
-        return reverseString(word.substring(1)) + word.charAt(0);
+        return reverseString(word.substring(1)) + word.charAt(0); // append character in reverse
     }
 }

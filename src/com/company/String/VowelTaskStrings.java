@@ -1,4 +1,4 @@
-package com.company;
+package com.company.String;
 
 public class VowelTaskStrings {
     public static void main(String[] args) {
