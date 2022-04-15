@@ -21,7 +21,7 @@ public class Person {
     // Method signatures is the number and data type of the parameters and
     // order in which those parameters are defined
 
-    public Person (String name, int age, double height, double weight){
+    public Person (String name, int age){
         this.name = name;
         this.age = age;
         this.height = height;
@@ -61,7 +61,7 @@ public class Person {
     }
 
     public double bmi(){
-        return height/ (weight* weight);
+        return weight/ (height* height);
     }
 
 
